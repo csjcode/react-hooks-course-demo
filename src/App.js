@@ -1,7 +1,8 @@
 import './App.css';
 // import { StateTutorial } from './components/StateTutorial/StateTutorial';
-import { UseEffectTutorial } from './components/';
+// import { UseEffectTutorial } from './components/';
 // import { AxiosUseEffectCatchError } from './boilerplate/';
+import { AxiosUseEffectData } from './boilerplate/';
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
         {/* <StateTutorial /> */}
         {/* <ReducerTutorial /> */}
         {/* <AxiosUseEffectCatchError /> */}
-        <UseEffectTutorial />
+        <AxiosUseEffectData />
+        {/* <UseEffectTutorial /> */}
       </header>
     </div>
   );
