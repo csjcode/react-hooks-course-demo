@@ -1,6 +1,6 @@
 import './App.css';
 // import { StateTutorial } from './components/StateTutorial/StateTutorial';
-import { ReducerTutorial } from './components/';
+import { UseEffectTutorial } from './components/';
 
 const App = () => {
   return (
@@ -8,7 +8,8 @@ const App = () => {
       <header className="App-header">
         <p>React Hooks Course</p>
         {/* <StateTutorial /> */}
-        <ReducerTutorial />
+        {/* <ReducerTutorial /> */}
+        <UseEffectTutorial />
       </header>
     </div>
   );
